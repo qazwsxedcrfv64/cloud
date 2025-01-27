@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Board</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="chess-board"></div>
+<script>
+  const board = document.getElementById("chess-board");
+
+  const pieces = {
+    rook: "\u265C",
+    knight: "\u265E",
+    bishop: "\u265D",
+    queen: "\u265B",
+    king: "\u265A",
+    pawn: "\u265F",
+  };
+
+  function createChessBoard() {
+    for (let row = 0; row < 8; row++) {
+      for (let col = 0; col < 8; col++) {
+        const square = document.createElement("div");
+        square.classList.add("square");
+        square.classList.add((row + col) % 2 === 0 ? "light" : "dark");
+        board.appendChild(square);
+      }
+    }
+    placePieces();
+  }
+
+  function placePieces() {
+    const initialPositions = [
+      [pieces.rook, pieces.knight, pieces.bishop, pieces.queen, pieces.king, pieces.bishop, pieces.knight, pieces.rook],
+      Array(8).fill(pieces.pawn),
+      ...Array(4).fill(Array(8).fill(null)),
+      Array(8).fill(pieces.pawn),
+      [pieces.rook, pieces.knight, pieces.bishop, pieces.queen, pieces.king, pieces.bishop, pieces.knight, pieces.rook],
+    ];
+
+    board.childNodes.forEach((square, index) => {
+      const row = Math.floor(index / 8);
+      const col = index % 8;
+      const piece = initialPositions[row][col];
+      if (piece) {
+        const pieceElement = document.createElement("span");
+        pieceElement.classList.add("piece");
+        pieceElement.textContent = piece;
+        square.appendChild(pieceElement);
+      }
+    });
+  }
+
+  createChessBoard();
+</script>
+</body>
+</html>

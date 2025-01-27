@@ -1,0 +1,42 @@
+[debug] [2025-01-27T16:17:05.590Z] ----------------------------------------------------------------------
+[debug] [2025-01-27T16:17:05.594Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aweso\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-27T16:17:05.594Z] CLI Version:   13.29.2
+[debug] [2025-01-27T16:17:05.595Z] Platform:      win32
+[debug] [2025-01-27T16:17:05.595Z] Node Version:  v22.13.0
+[debug] [2025-01-27T16:17:05.596Z] Time:          Mon Jan 27 2025 09:17:05 GMT-0700 (Mountain Standard Time)
+[debug] [2025-01-27T16:17:05.596Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-27T16:17:05.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-27T16:17:05.609Z] > authorizing via signed-in user (car24017@byui.edu)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aweso\WebstormProjects\cloud
+
+[debug] [2025-01-27T16:17:56.257Z] ----------------------------------------------------------------------
+[debug] [2025-01-27T16:17:56.262Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aweso\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-01-27T16:17:56.262Z] CLI Version:   13.29.2
+[debug] [2025-01-27T16:17:56.262Z] Platform:      win32
+[debug] [2025-01-27T16:17:56.263Z] Node Version:  v22.13.0
+[debug] [2025-01-27T16:17:56.263Z] Time:          Mon Jan 27 2025 09:17:56 GMT-0700 (Mountain Standard Time)
+[debug] [2025-01-27T16:17:56.263Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-27T16:17:56.278Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-27T16:17:56.279Z] > authorizing via signed-in user (car24017@byui.edu)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aweso\WebstormProjects\cloud
+
